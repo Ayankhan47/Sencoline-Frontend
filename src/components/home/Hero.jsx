@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import HeroSVG from "../../assets/Hero.svg"
-import LocationSVG from "../../assets/Location.svg"
+import HeroSVG from "../../assets/Hero/Hero.svg"
+import LocationSVG from "../../assets/Hero/Location.svg"
 const Hero = () => {
   return (
     <div className="Hero max-w-8xl h-[82vh] bg-[#F8F8F8] flex">

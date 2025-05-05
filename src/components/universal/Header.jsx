@@ -2,12 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import SearchBar from "./searchBar";
 import DropdownMenu from "../home/dropDown";
-import LogoSVG from "../../assets/Logo.svg";
+import LogoSVG from "../../assets/Hero/Logo.svg";
 const Header = () => {
   return (
     <header className="">
       <div className=" px-4 py-4 flex justify-between items-center">
-        <Link to="/" className="text-xl font-bold text-blue-700">
+        <Link to="/" className="text-xl font-bold text-blue-700 outline-none">
           <img src={LogoSVG} alt="" />
         </Link>
         <SearchBar />
